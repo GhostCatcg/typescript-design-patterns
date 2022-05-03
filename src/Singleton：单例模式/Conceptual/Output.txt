@@ -1,1 +1,2 @@
 Singleton works, both variables contain the same instance.
+单例工作，两个变量包含相同的实例。
