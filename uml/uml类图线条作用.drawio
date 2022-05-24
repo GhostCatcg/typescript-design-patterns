@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="WlyAIyUOdPtycKj1R1WJ" name="第 1 页">
-        <mxGraphModel dx="1042" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1200" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -125,6 +125,19 @@
                 </mxCell>
                 <mxCell id="6" value="&lt;ul&gt;&lt;li&gt;&quot;+&quot; 表示 public;&lt;/li&gt;&lt;li&gt;&quot;-&quot; 表示 private;&lt;/li&gt;&lt;li&gt;&quot;#&quot; 表示 protected;&lt;/li&gt;&lt;li&gt;不带符号表示 default;&lt;/li&gt;&lt;li&gt;... 表示更多变量或方法&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=default;startSize=36;" vertex="1" parent="3">
                     <mxGeometry x="19.999999999999996" y="81.60000000000001" width="259.99999999999994" height="217.60000000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="740" y="160" width="330" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=default;startSize=36;strokeColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="7">
+                    <mxGeometry width="330" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="聚合、包含" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="7">
+                    <mxGeometry x="-0.125" y="10" relative="1" as="geometry">
+                        <mxPoint x="80" y="70" as="sourcePoint"/>
+                        <mxPoint x="240" y="70" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
