@@ -3,9 +3,8 @@
  * 适配器 - 设计模式
  *
  * Intent: Provides a unified interface that allows objects with incompatible
- * 目的:提供一个统一的接口，允许不兼容的对象
  * interfaces to collaborate.
- * 接口合作。
+ * 意图:提供一个统一的接口，使得接口不兼容的对象可以合作。
  */
 
 /**
@@ -20,11 +19,9 @@ class Target {
 
 /**
  * The Adaptee contains some useful behavior, but its interface is incompatible
- * Adaptee包含一些有用的行为，但它的接口是不兼容的
  * with the existing client code. The Adaptee needs some adaptation before the
- * 使用现有的客户机代码。被适应性者需要在
  * client code can use it.
- * 客户端代码可以使用它。
+ * 适配者包含一些有用的行为，但其界面与现有的客户代码不兼容。适配者需要一些适配才能使客户代码可以使用它。
  */
 class Adaptee {
     public specificRequest(): string {
@@ -34,8 +31,8 @@ class Adaptee {
 
 /**
  * The Adapter makes the Adaptee's interface compatible with the Target's
- * Adapter使Adaptee的接口与Target的接口兼容
  * interface.
+ * 适配器使适配者的接口与目标的接口兼容。
  */
 class Adapter extends Target {
     private adaptee: Adaptee;
