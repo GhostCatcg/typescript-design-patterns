@@ -138,6 +138,7 @@ function clientCode(component: Component) {
  * This way the client code can support the simple leaf components...
  * 这种方式客户端代码可以支持简单的叶子组件...
  */
+// @ts-ignore
 const simple = new Leaf();
 console.log('Client: I\'ve got a simple component:');
 clientCode(simple);

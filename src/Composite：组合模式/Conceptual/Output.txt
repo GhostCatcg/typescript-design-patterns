@@ -6,3 +6,12 @@ RESULT: Branch(Branch(Leaf+Leaf)+Branch(Leaf))
 
 Client: I don't need to check the components classes even when managing the tree:
 RESULT: Branch(Branch(Leaf+Leaf)+Branch(Leaf)+Leaf)
+
+客户端:我有一个简单的组件:
+结果:叶
+
+客户端:现在我得到了一个复合树:
+结果:分支机构(分公司(叶+)+分公司(叶))
+
+客户端:我不需要检查组件类，即使在管理树:
+结果:分支机构(分公司(叶+)+分公司(叶)+叶)
