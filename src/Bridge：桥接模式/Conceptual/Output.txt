@@ -3,3 +3,9 @@ ConcreteImplementationA: Here's the result on the platform A.
 
 ExtendedAbstraction: Extended operation with:
 ConcreteImplementationB: Here's the result on the platform B.
+
+抽象:基本操作与:
+ConcreteImplementationA:这是平台A上的结果。
+
+extendedabstract:扩展操作:
+ConcreteImplementationB:这是平台B上的结果。

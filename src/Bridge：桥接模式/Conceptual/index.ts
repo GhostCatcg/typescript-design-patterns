@@ -94,6 +94,7 @@ function clientCode(abstraction: Abstraction) {
  * implementation combination.
  * 客户端代码应该能够工作任何预配置的抽象化-实现组合。
  */
+console.log('桥接模式')
 let implementation = new ConcreteImplementationA();
 let abstraction = new Abstraction(implementation);
 clientCode(abstraction);

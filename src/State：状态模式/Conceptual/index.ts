@@ -13,6 +13,7 @@
  * state of the Context.
  * Context定义了客户端感兴趣的接口。它还维护对State子类实例的引用，该实例表示Context的当前状态。
  */
+// @ts-ignore 这是因为他跟其他文件夹里面的index.ts冲突了
 class Context {
     /**
      * @type {State} A reference to the current state of the Context.
@@ -100,6 +101,7 @@ class ConcreteStateB extends State {
  * The client code.
  * 客户端代码。
  */
+// @ts-ignore 这是因为他跟其他文件夹里面的index.ts冲突了
 const context = new Context(new ConcreteStateA());
 context.request1();
 context.request2();

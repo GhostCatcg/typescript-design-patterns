@@ -5,3 +5,11 @@ Context: Transition to ConcreteStateB.
 ConcreteStateB handles request2.
 ConcreteStateB wants to change the state of the context.
 Context: Transition to ConcreteStateA.
+
+背景:过渡到ConcreteStateA。
+ConcreteStateA处理request1。
+concretestata想要改变上下文的状态。
+背景:过渡到ConcreteStateB。
+ConcreteStateB处理request2。
+ConcreteStateB想要改变上下文的状态。
+背景:过渡到ConcreteStateA。
